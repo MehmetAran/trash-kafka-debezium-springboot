@@ -1,5 +1,5 @@
 
-docker, spring boot, kafka shovel by trendyol, kafka, postgres, debezium, go 
+docker, spring boot, kafka shovel by trendyol, kafka, postgres, debezium, go, outbox-inbox patterns
 
 
 https://docs.google.com/document/d/1_8nl7MSc_6lZk9XwYXqdSXEIHn481njg21mza8PL2W4/edit?usp=sharing
