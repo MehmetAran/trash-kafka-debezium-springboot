@@ -1,4 +1,4 @@
-
+### It is a trash repository to try something. So please don't judge me for code smell or dockerizing issues :D 
 docker, spring boot, kafka shovel by trendyol, kafka, postgres, debezium, go, outbox-inbox patterns
 
 
