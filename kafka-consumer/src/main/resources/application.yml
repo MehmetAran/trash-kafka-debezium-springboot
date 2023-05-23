@@ -1,0 +1,22 @@
+server:
+  port: 8088
+---
+spring:
+  config:
+    activate:
+      on-profile: LOCAL
+kafka:
+  brokers: localhost:59092
+  consumer:
+    group-id: local-maran-kafka1
+---
+
+spring:
+  config:
+    activate:
+      on-profile: DOCKER_COMPOSE
+kafka:
+  brokers: kafka-1:19092,kafka-2:29092,kafka-3:39092
+  consumer:
+    group-id: local-maran-kafka1
+---

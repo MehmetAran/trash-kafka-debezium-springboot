@@ -1,0 +1,28 @@
+spring:
+  config:
+    activate:
+      on-profile: LOCAL
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Kafka
+    username: postgres
+    password: example
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: create-drop
+
+kafka:
+  brokers: localhost:59092
+
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: DOCKER_COMPOSE
+kafka:
+  brokers: kafka-1:19092,kafka-2:29092,kafka-3:39092
