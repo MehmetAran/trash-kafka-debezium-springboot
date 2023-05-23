@@ -7,7 +7,7 @@ https://docs.google.com/document/d/1_8nl7MSc_6lZk9XwYXqdSXEIHn481njg21mza8PL2W4/
 
 
 
-
+outbox
 {
 "name": "outbox-pattern",
 "config": {
